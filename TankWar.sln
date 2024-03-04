@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TankWarConsole", "TankWarConsole\TankWarConsole.vcproj", "{6C1C6E1D-0B26-4407-81AE-30BD96C5D9FA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{937612C1-F686-4F33-BFD7-C3B09BFE35DA} = {937612C1-F686-4F33-BFD7-C3B09BFE35DA}
+		{DA4A90FF-737B-4475-8725-BC19ECCA14E0} = {DA4A90FF-737B-4475-8725-BC19ECCA14E0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TankWarController", "TankWarController\TankWarController.vcproj", "{937612C1-F686-4F33-BFD7-C3B09BFE35DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C4C8544-7E37-4942-9DEC-A05F1BBDB177} = {4C4C8544-7E37-4942-9DEC-A05F1BBDB177}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TankWarModel", "TankWarModel\TankWarModel.vcproj", "{DA4A90FF-737B-4475-8725-BC19ECCA14E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{937612C1-F686-4F33-BFD7-C3B09BFE35DA} = {937612C1-F686-4F33-BFD7-C3B09BFE35DA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicData", "BasicData\BasicData.vcproj", "{4C4C8544-7E37-4942-9DEC-A05F1BBDB177}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TankWarMFC", "TankWarMFC\TankWarMFC.vcproj", "{F9A78172-55B3-4DB3-BC16-8EAB2C5205A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{937612C1-F686-4F33-BFD7-C3B09BFE35DA} = {937612C1-F686-4F33-BFD7-C3B09BFE35DA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C1C6E1D-0B26-4407-81AE-30BD96C5D9FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C1C6E1D-0B26-4407-81AE-30BD96C5D9FA}.Debug|Win32.Build.0 = Debug|Win32
+		{6C1C6E1D-0B26-4407-81AE-30BD96C5D9FA}.Release|Win32.ActiveCfg = Release|Win32
+		{6C1C6E1D-0B26-4407-81AE-30BD96C5D9FA}.Release|Win32.Build.0 = Release|Win32
+		{937612C1-F686-4F33-BFD7-C3B09BFE35DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{937612C1-F686-4F33-BFD7-C3B09BFE35DA}.Debug|Win32.Build.0 = Debug|Win32
+		{937612C1-F686-4F33-BFD7-C3B09BFE35DA}.Release|Win32.ActiveCfg = Release|Win32
+		{937612C1-F686-4F33-BFD7-C3B09BFE35DA}.Release|Win32.Build.0 = Release|Win32
+		{DA4A90FF-737B-4475-8725-BC19ECCA14E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA4A90FF-737B-4475-8725-BC19ECCA14E0}.Debug|Win32.Build.0 = Debug|Win32
+		{DA4A90FF-737B-4475-8725-BC19ECCA14E0}.Release|Win32.ActiveCfg = Release|Win32
+		{DA4A90FF-737B-4475-8725-BC19ECCA14E0}.Release|Win32.Build.0 = Release|Win32
+		{4C4C8544-7E37-4942-9DEC-A05F1BBDB177}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C4C8544-7E37-4942-9DEC-A05F1BBDB177}.Debug|Win32.Build.0 = Debug|Win32
+		{4C4C8544-7E37-4942-9DEC-A05F1BBDB177}.Release|Win32.ActiveCfg = Release|Win32
+		{4C4C8544-7E37-4942-9DEC-A05F1BBDB177}.Release|Win32.Build.0 = Release|Win32
+		{F9A78172-55B3-4DB3-BC16-8EAB2C5205A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9A78172-55B3-4DB3-BC16-8EAB2C5205A9}.Debug|Win32.Build.0 = Debug|Win32
+		{F9A78172-55B3-4DB3-BC16-8EAB2C5205A9}.Release|Win32.ActiveCfg = Release|Win32
+		{F9A78172-55B3-4DB3-BC16-8EAB2C5205A9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
